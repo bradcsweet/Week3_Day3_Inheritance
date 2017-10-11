@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week3_Day3_Inheritance
 {
-    class Vehicle
+    abstract class Vehicle
     {
         protected int seats;
         protected int carryingCapacity;
@@ -52,7 +52,7 @@ namespace Week3_Day3_Inheritance
             this.distanceTraveled = 0.0d;
         }
 
-        public void Move()
+        public virtual void Move()
         {
             //distanceTraveled = distanceTraveled + movementSpeed;
             distanceTraveled += movementSpeed;

@@ -17,9 +17,17 @@ namespace Week3_Day3_Inheritance
             get { return this.numberOfWheels; }
         }
 
-        public Automobile(int numberOfWheels, float wheelSize, int numberOfDoors)
+        public Automobile(int numberOfWheels, float wheelSize, int numberOfDoors, int seats, int carryingCapacity, string color, double movementSpeed)
         {
-
+            // these fields are in the Automobile class
+            this.numberOfWheels = numberOfWheels;
+            this.wheelSize = wheelSize;
+            this.numberOfDoors = numberOfDoors;
+            // these fields are in the Vehicle lass
+            this.seats = seats;
+            this.carryingCapacity = carryingCapacity;
+            this.color = color;
+            this.movementSpeed = movementSpeed;
         }
 
 
