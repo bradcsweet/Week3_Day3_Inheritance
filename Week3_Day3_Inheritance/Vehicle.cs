@@ -52,9 +52,13 @@ namespace Week3_Day3_Inheritance
             this.distanceTraveled = 0.0d;
         }
 
-        protected Move()
+        public void Move()
         {
-
+            //distanceTraveled = distanceTraveled + movementSpeed;
+            distanceTraveled += movementSpeed;
         }
+
+
     }
+
 }
