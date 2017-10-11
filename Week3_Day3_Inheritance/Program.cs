@@ -10,6 +10,8 @@ namespace Week3_Day3_Inheritance
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
