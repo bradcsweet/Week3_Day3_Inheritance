@@ -19,17 +19,18 @@ namespace Week3_Day3_Inheritance
             Automobile herbie = new Automobile(4, 13, 2, 4, 1500, "white", 88.0d);
             herbie.Move();
             herbie.Move();
-            Console.WriteLine("Automobile distance traveled: " +herbie.DistanceTraveled);
+            Console.WriteLine("Automobile " +herbie.GetDistanceTraveled());
 
             Boat boaty = new Boat(2, 500, "red", 88, .9d);
             boaty.Move();
             boaty.Move();
-            Console.WriteLine("Boat distance traveled: " + boaty.DistanceTraveled);
+            Console.WriteLine("Boat " + boaty.GetDistanceTraveled());
 
             Aircraft aircrafty = new Aircraft(70, 100000, "Grey", 600.0d);
             aircrafty.Move();
             aircrafty.Move();
-            Console.WriteLine("Aircraft distance traveled: " + aircrafty.DistanceTraveled);
+            Console.WriteLine("Aircraft " + aircrafty.GetDistanceTraveled());
+
 
         }
     }

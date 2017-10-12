@@ -58,7 +58,10 @@ namespace Week3_Day3_Inheritance
             distanceTraveled += movementSpeed;
         }
 
-        public virtual string 
+        public virtual string GetDistanceTraveled()
+        {
+            return "Distance Travel: " + distanceTraveled + "\n";
+        }
 
 
         //public abstract void StartEngine(int keycode); // this is just an example of a very seldom used tactic to force 

@@ -27,6 +27,10 @@ namespace Week3_Day3_Inheritance
             base.Move();
         }
 
+        public override string GetDistanceTraveled()
+        {
+            return "Altitude: " + altitude + "-" + base.GetDistanceTraveled();
+        }
 
     }
 }
