@@ -26,6 +26,11 @@ namespace Week3_Day3_Inheritance
             boaty.Move();
             Console.WriteLine("Boat distance traveled: " + boaty.DistanceTraveled);
 
+            Aircraft aircrafty = new Aircraft(70, 100000, "Grey", 600.0d);
+            aircrafty.Move();
+            aircrafty.Move();
+            Console.WriteLine("Aircraft distance traveled: " + aircrafty.DistanceTraveled);
+
         }
     }
 }
